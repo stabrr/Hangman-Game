@@ -37,6 +37,7 @@ function newWord(){
  		unsolvedWord.push("_");
  	}
  	console.log(unsolvedWord);
+ 	document.getElementById('unsolve').innerHTML = unsolvedWord.join(" ");
 }
 
 function changeImage(wordForImage){
@@ -126,8 +127,8 @@ document.onkeyup = function(event) {
       	document.getElementById('guessesLeft').innerHTML = "Number of Guesses Left " + lettersLeft;
       	document.getElementById('unsolve').innerHTML = unsolvedWord.join(" ");
       	document.getElementById('guesses').innerHTML = "Guessed Letters: " + lettersGuessed.join(" ");
-      	document.getElementById('wins').innerHTML = "Wins= " + winCounter;
-      //	document.getElementById('loss').innerHTML = "Losses= " + lossCounter; 
+      	document.getElementById('wins').innerHTML = "Wins: " + winCounter;
+      	document.getElementById('loss').innerHTML = "Losses: " + lossCounter; 
 
 
 

@@ -29,6 +29,7 @@ h1 {
 	border-style: dotted;
 	border-left: none; 
 	border-bottom: none;
+	height: 300px;
 }
 
 .wordUnsolved{
