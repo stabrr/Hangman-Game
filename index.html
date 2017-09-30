@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<<html lang="en-us">
+
 <head>
-	<meta charset="utf-8">
-	<title>Hangman</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<!-- 	<script type="text/javascript" src="assets/javascript/game.js"></script> -->
+	<meta charset="UTF-8">
+	<title>hangman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">-->
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
 </head>
+<body class="test">
+<div class="row why">
+  <h1>HANGMAN<AM</h1>
+  <p>Home Renovation Themed</p>
+</div>
+<div class="container-fluid gameContainer">
+	<div class="row why">
+	 <div class="col-sm-2"></div>
+	 <div class="col-sm-4 winner">
+		<img class="winImage" id=winImg src="assets/images/hangman.jpg">
+	 </div>
+	 <div class="col-sm-4 game">Press any Key to start the game!
+	 	<p id=wins>Wins</p>
+	 	<p>Current Word</p>
+	 	<p id=unsolve class=wordUnsolved>Currentword</p>
+	 	<p>Number of Guesses Left</p>
+	 	<p id=guessesLeft>12</p>
+	 	<p>Letters Already Guessed</p>
+	 	<p id=guesses>a</p>
+	 </div>
+	 <div class="col-sm-2"></div>
+	</div>
+</div>	
 
-<body>
-<p id=guessesLeft>variables</p>
-<p id=unsolve>Currentword</p>
-<p id=guesses>unsolve</p>
-<p id=wins>Wins</p>
-<p id=loss>loss</p>
-
-
+</div>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
-	

@@ -122,7 +122,7 @@ document.onkeyup = function(event) {
       	document.getElementById('unsolve').innerHTML = unsolvedWord.join(" ");
       	document.getElementById('guesses').innerHTML = "Guessed Letters: " + lettersGuessed.join(" ");
       	document.getElementById('wins').innerHTML = "Wins= " + winCounter;
-      	document.getElementById('loss').innerHTML = "Losses= " + lossCounter; 
+      //	document.getElementById('loss').innerHTML = "Losses= " + lossCounter; 
 
 
 

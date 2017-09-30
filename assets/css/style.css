@@ -1,0 +1,36 @@
+.test{
+	font-family: 'Fredoka One', cursive;
+	font-size: 140%;
+	background-color: #4682B4 !important;
+}
+h1 {
+	text-align: center;
+}
+
+.hangColor{
+	background-color: #4682B4;
+}
+.why{
+	background-color: #4682B4;
+}
+.winner{
+	text-align: center;
+	border-style: dotted;
+	border-bottom: none;
+}
+
+.winImage{
+	height:300px;
+	width: 200px;
+}
+
+.game{
+	text-align: center;
+	border-style: dotted;
+	border-left: none; 
+	border-bottom: none;
+}
+
+.wordUnsolved{
+	font-size: 200%;
+}
