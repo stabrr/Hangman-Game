@@ -39,7 +39,9 @@ function newWord(){
  	console.log(unsolvedWord);
 }
 
-
+function changeImage(wordForImage){
+	document.getElementById('winImg').src = "assets/images/" + wordForImage + ".jpg";
+}
 	
 //Function for reading each key
 document.onkeyup = function(event) {
@@ -103,13 +105,16 @@ document.onkeyup = function(event) {
     		console.log("we have a winner");
     		winCounter++;
     		console.log("winCounter" + winCounter);
+    		changeImage(currentWord);
     		startNewGame=true;
     	};
     	//if no guesses left start add the loss and start game over
     	if (lettersLeft === 0){
-    		console.log("you lose");
+    		alert("you lose");
     		lossCounter++;
+    		changeImage("hangman");
     		console.log("losscounter: " + lossCounter);
+
     		startNewGame=true;
     	}
 
